@@ -14,7 +14,8 @@
     "content_scripts": [
         {
             "matches": ["*://*.kleinezeitung.at/*"],
-            "js": ["contentScripts/kleine.js"]
+            "js": ["contentScripts/builderGallery.js", "contentScripts/kleine.js"],
+            "css": ["styles/betterGalleryStyle.css"]
         }
     ]
 }

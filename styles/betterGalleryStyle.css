@@ -1,0 +1,23 @@
+#betterGalleryContainer
+{
+    height: 800px;
+    width: 125%;
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    overflow:auto; 
+    column-gap:5px; 
+    row-gap:5px;
+    grid-template-rows: 250px;
+    z-index: 21;
+    position: absolute;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#betterGalleryContainer img
+{
+    height: 250px;
+    border-radius: 5px;
+}
